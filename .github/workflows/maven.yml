@@ -30,7 +30,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
-x
+
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
