@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GithubCicdActionsApplication {
 
+	//Test controller.
 	@GetMapping("/welcome")
 	public String helloGreeting() {
 		System.out.println("Say Hello");
