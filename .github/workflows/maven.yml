@@ -37,6 +37,6 @@ jobs:
         image: ssheel2020/java-springboot-new
         tags: latest
         registry: docker.io
-        dockerfile: Docker
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
