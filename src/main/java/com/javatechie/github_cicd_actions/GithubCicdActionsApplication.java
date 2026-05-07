@@ -13,7 +13,7 @@ public class GithubCicdActionsApplication {
 	@GetMapping("/welcome")
 	public String helloGreeting() {
 		System.out.println("Say Hello");
-		return "welcome";
+		return "welcome to github actions";
 	}
 
 	public static void main(String[] args) {
